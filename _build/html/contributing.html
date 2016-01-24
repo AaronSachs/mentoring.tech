@@ -39,6 +39,44 @@
             
   <div class="section" id="contributing">
 <h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h1>
+<p>Do you want to help contribute to mentoring.tech? Awesome! Here are the most common ways you can contribute:</p>
+<ul class="simple">
+<li>Open an <a class="reference external" href="https://github.com/mentoring-tech/mentoring-tech/issues/new">issue</a></li>
+<li><a class="reference external" href="https://github.com/mentoring-tech/mentoring-tech/fork">Fork</a> the project and submit a PR</li>
+<li>Send an <a class="reference external" href="mailto:aaron&#37;&#52;&#48;aaronmsachs&#46;com">email</a></li>
+</ul>
+<div class="section" id="adding-updating-content">
+<h2>Adding/Updating Content<a class="headerlink" href="#adding-updating-content" title="Permalink to this headline">¶</a></h2>
+<p>If you are looking to add content, fix formatting, syntax, typos or other
+wonderful things, please use the following process:</p>
+<ul class="simple">
+<li>Install Sphinx: <code class="docutils literal"><span class="pre">easy_install</span> <span class="pre">Sphinx</span> <span class="pre">sphinx_rtd_theme</span></code> or <code class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span></code></li>
+<li>Fork the repository to your own account</li>
+<li>Check out a branch to make your changes on: <code class="docutils literal"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">--branch</span> <span class="pre">&lt;my_topic&gt;</span></code></li>
+<li>Execute <code class="docutils literal"><span class="pre">make</span> <span class="pre">html</span></code> to build the docs in to <code class="docutils literal"><span class="pre">_build/</span></code></li>
+<li>Make your changes</li>
+<li>Execute <code class="docutils literal"><span class="pre">make</span> <span class="pre">html</span></code> again and verify your changes don&#8217;t cause any
+warnings/errors</li>
+<li>Commit with a descriptive message, and submit a pull request from your branch
+to <code class="docutils literal"><span class="pre">master</span></code></li>
+<li>We&#8217;ll review the change, and either merge it or provide some feedback. Community review is also encouraged.</li>
+</ul>
+<p>A quick note if you&#8217;re adding a new heading:</p>
+<p>Sphinx will error out if your title text is longer than the title underline. For example:
+<code class="docutils literal"><span class="pre">/projects/mentoring.tech/resources.rst:12:</span> <span class="pre">WARNING:</span> <span class="pre">Title</span> <span class="pre">underline</span> <span class="pre">too</span> <span class="pre">short.</span></code></p>
+<p>And when you look at the title, you see:</p>
+<div class="highlight-rst"><div class="highlight"><pre><span class="gh">This title is quite long...</span>
+<span class="gh">-----</span>
+</pre></div>
+</div>
+<p>Which will cause the error. Corrected, the tite would be more like:</p>
+<div class="highlight-rst"><div class="highlight"><pre><span class="gh">This title is quite long...</span>
+<span class="gh">-----------------------------------</span>
+</pre></div>
+</div>
+<p>Which will correct the issue.  For any other issues you run into, hop into the Gitter channel and one of us will help out.</p>
+<a class="reference external image-reference" href="https://gitter.im/mentoring-tech/mentoring-tech"><img alt="Gitter Channel" src="https://badges.gitter.im/Join%20Chat.svg" /></a>
+</div>
 </div>
 
 
@@ -46,7 +84,15 @@
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper"><div class="relations">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Contributing</a><ul>
+<li><a class="reference internal" href="#adding-updating-content">Adding/Updating Content</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
