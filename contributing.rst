@@ -12,7 +12,7 @@ Adding/Updating Content
 -----------------------
 
 If you are looking to add content, fix formatting, syntax, typos or other
-wonderful things, please use the following process:
+wonderful things, please use the folowing process:
 
 * Install Sphinx: ``easy_install Sphinx sphinx_rtd_theme`` or ``pip install -r requirements.txt``
 * Fork the repository to your own account
